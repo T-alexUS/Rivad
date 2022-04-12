@@ -85,3 +85,20 @@
 #         print('Треугольник разносторонний');
 
 # task5();
+
+#Задание 8
+def task8():
+    month = input('Введите месяц года\n');
+    day = input('Введите день вышеуказанного месяца\n');
+    if ((month == 'март' and day >= 20) or month == 'апрель' or month == 'май' or (month == 'июнь' and day <= 20)):
+        print('Данный день входит в весенний сезон');
+    elif ((month == 'июнь' and day >= 21) or month == 'июль' or month == 'август' or (month == 'сентябрь' and day <= 21)):
+        print('Данный день входит в летний сезон')
+    elif ((month == 'сентябрь' and day >= 22) or month == 'октябрь' or month == 'ноябрь' or (month == 'декабрь' and day <= 20)):
+        print('Данный день входит в осенний сезон')
+    elif ((month == 'декабрь' and day >= 21) or month == 'январь' or month == 'февраль' or (month == 'март' and day <= 19)):
+        print('Данный день входит в зимний сезон')
+
+task8();
+
+
