@@ -89,7 +89,7 @@
 #Задание 8
 def task8():
     month = input('Введите месяц года\n');
-    day = input('Введите день вышеуказанного месяца\n');
+    day = int(input('Введите день вышеуказанного месяца\n'));
     if ((month == 'март' and day >= 20) or month == 'апрель' or month == 'май' or (month == 'июнь' and day <= 20)):
         print('Данный день входит в весенний сезон');
     elif ((month == 'июнь' and day >= 21) or month == 'июль' or month == 'август' or (month == 'сентябрь' and day <= 21)):
