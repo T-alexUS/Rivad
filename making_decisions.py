@@ -86,19 +86,47 @@
 
 # task5();
 
-#Задание 8
-def task8():
-    month = input('Введите месяц года\n');
-    day = int(input('Введите день вышеуказанного месяца\n'));
-    if ((month == 'март' and day >= 20) or month == 'апрель' or month == 'май' or (month == 'июнь' and day <= 20)):
-        print('Данный день входит в весенний сезон');
-    elif ((month == 'июнь' and day >= 21) or month == 'июль' or month == 'август' or (month == 'сентябрь' and day <= 21)):
-        print('Данный день входит в летний сезон')
-    elif ((month == 'сентябрь' and day >= 22) or month == 'октябрь' or month == 'ноябрь' or (month == 'декабрь' and day <= 20)):
-        print('Данный день входит в осенний сезон')
-    elif ((month == 'декабрь' and day >= 21) or month == 'январь' or month == 'февраль' or (month == 'март' and day <= 19)):
-        print('Данный день входит в зимний сезон')
+# #Задание 8
+# def task8():
+#     month = input('Введите месяц года\n');
+#     day = int(input('Введите день вышеуказанного месяца\n'));
+#     if ((month == 'март' and day >= 20) or month == 'апрель' or month == 'май' or (month == 'июнь' and day <= 20)):
+#         print('Данный день входит в весенний сезон');
+#     elif ((month == 'июнь' and day >= 21) or month == 'июль' or month == 'август' or (month == 'сентябрь' and day <= 21)):
+#         print('Данный день входит в летний сезон')
+#     elif ((month == 'сентябрь' and day >= 22) or month == 'октябрь' or month == 'ноябрь' or (month == 'декабрь' and day <= 20)):
+#         print('Данный день входит в осенний сезон')
+#     elif ((month == 'декабрь' and day >= 21) or month == 'январь' or month == 'февраль' or (month == 'март' and day <= 19)):
+#         print('Данный день входит в зимний сезон')
 
-task8();
+# task8();
 
+#Задание 9
+def task9():
+    year = int(input('Введите год вашего рождения\n'));
+    if year % 12 == 0:
+        print('Вы родились в год обезьяны');
+    elif year % 12 == 1:
+        print('Вы родились в год петуха');
+    elif year % 12 == 2:
+        print('Вы родились в год собаки');
+    elif year % 12 == 3:
+        print('Вы родились в год свиньи');
+    elif year % 12 == 4:
+        print('Вы родились в год крысы');
+    elif year % 12 == 5:
+        print('Вы родились в год быка');
+    elif year % 12 == 6:
+        print('Вы родились в год тигра');
+    elif year % 12 == 7:
+        print('Вы родились в год кролика');
+    elif year % 12 == 8:
+        print('Вы родились в год дракона');
+    elif year % 12 == 9:
+        print('Вы родились в год змеи');
+    elif year % 12 == 10:
+        print('Вы родились в год лошади');
+    elif year % 12 == 11:
+        print('Вы родились в год козы');
 
+task9();
