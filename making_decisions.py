@@ -101,32 +101,66 @@
 
 # task8();
 
-#Задание 9
-def task9():
-    year = int(input('Введите год вашего рождения\n'));
-    if year % 12 == 0:
-        print('Вы родились в год обезьяны');
-    elif year % 12 == 1:
-        print('Вы родились в год петуха');
-    elif year % 12 == 2:
-        print('Вы родились в год собаки');
-    elif year % 12 == 3:
-        print('Вы родились в год свиньи');
-    elif year % 12 == 4:
-        print('Вы родились в год крысы');
-    elif year % 12 == 5:
-        print('Вы родились в год быка');
-    elif year % 12 == 6:
-        print('Вы родились в год тигра');
-    elif year % 12 == 7:
-        print('Вы родились в год кролика');
-    elif year % 12 == 8:
-        print('Вы родились в год дракона');
-    elif year % 12 == 9:
-        print('Вы родились в год змеи');
-    elif year % 12 == 10:
-        print('Вы родились в год лошади');
-    elif year % 12 == 11:
-        print('Вы родились в год козы');
+# #Задание 9
+# def task9():
+#     year = int(input('Введите год вашего рождения\n'));
+#     if year % 12 == 0:
+#         print('Вы родились в год обезьяны');
+#     elif year % 12 == 1:
+#         print('Вы родились в год петуха');
+#     elif year % 12 == 2:
+#         print('Вы родились в год собаки');
+#     elif year % 12 == 3:
+#         print('Вы родились в год свиньи');
+#     elif year % 12 == 4:
+#         print('Вы родились в год крысы');
+#     elif year % 12 == 5:
+#         print('Вы родились в год быка');
+#     elif year % 12 == 6:
+#         print('Вы родились в год тигра');
+#     elif year % 12 == 7:
+#         print('Вы родились в год кролика');
+#     elif year % 12 == 8:
+#         print('Вы родились в год дракона');
+#     elif year % 12 == 9:
+#         print('Вы родились в год змеи');
+#     elif year % 12 == 10:
+#         print('Вы родились в год лошади');
+#     elif year % 12 == 11:
+#         print('Вы родились в год козы');
 
-task9();
+# task9();
+
+#Задание 10
+def task10():
+    letter_mark = input("Введите оценку в буквенном формате\n");
+    if letter_mark == 'A+':
+        print('Ваша оценка - 4.0');
+    elif letter_mark == 'A':
+        print('Ваша оценка  - 4.0');
+    elif letter_mark == 'A':
+        print('Ваша оценка  - 4.0');
+    elif letter_mark == 'A-':
+        print('Ваша оценка  - 3.7');
+    elif letter_mark == 'B+':
+        print('Ваша оценка  - 3.3');
+    elif letter_mark == 'B':
+        print('Ваша оценка  - 3.0');
+    elif letter_mark == 'B-':
+        print('Ваша оценка  - 2.7');
+    elif letter_mark == 'C+':
+        print('Ваша оценка  - 2.3');
+    elif letter_mark == 'C':
+        print('Ваша оценка  - 2.0');
+    elif letter_mark == 'C-':
+        print('Ваша оценка  - 1.7');
+    elif letter_mark == 'D+':
+        print('Ваша оценка  - 1.3');
+    elif letter_mark == 'D':
+        print('Ваша оценка  - 1.0');
+    elif letter_mark == 'F':
+        print('Ваша оценка  - 0');
+    else:
+        print('Введите оценку заново');
+
+task10();
