@@ -131,36 +131,53 @@
 
 # task9();
 
-#Задание 10
-def task10():
-    letter_mark = input("Введите оценку в буквенном формате\n");
-    if letter_mark == 'A+':
-        print('Ваша оценка - 4.0');
-    elif letter_mark == 'A':
-        print('Ваша оценка  - 4.0');
-    elif letter_mark == 'A':
-        print('Ваша оценка  - 4.0');
-    elif letter_mark == 'A-':
-        print('Ваша оценка  - 3.7');
-    elif letter_mark == 'B+':
-        print('Ваша оценка  - 3.3');
-    elif letter_mark == 'B':
-        print('Ваша оценка  - 3.0');
-    elif letter_mark == 'B-':
-        print('Ваша оценка  - 2.7');
-    elif letter_mark == 'C+':
-        print('Ваша оценка  - 2.3');
-    elif letter_mark == 'C':
-        print('Ваша оценка  - 2.0');
-    elif letter_mark == 'C-':
-        print('Ваша оценка  - 1.7');
-    elif letter_mark == 'D+':
-        print('Ваша оценка  - 1.3');
-    elif letter_mark == 'D':
-        print('Ваша оценка  - 1.0');
-    elif letter_mark == 'F':
-        print('Ваша оценка  - 0');
-    else:
-        print('Введите оценку заново');
+# #Задание 10
+# def task10():
+#     letter_mark = input("Введите оценку в буквенном формате\n");
+#     if letter_mark == 'A+':
+#         print('Ваша оценка - 4.0');
+#     elif letter_mark == 'A':
+#         print('Ваша оценка  - 4.0');
+#     elif letter_mark == 'A':
+#         print('Ваша оценка  - 4.0');
+#     elif letter_mark == 'A-':
+#         print('Ваша оценка  - 3.7');
+#     elif letter_mark == 'B+':
+#         print('Ваша оценка  - 3.3');
+#     elif letter_mark == 'B':
+#         print('Ваша оценка  - 3.0');
+#     elif letter_mark == 'B-':
+#         print('Ваша оценка  - 2.7');
+#     elif letter_mark == 'C+':
+#         print('Ваша оценка  - 2.3');
+#     elif letter_mark == 'C':
+#         print('Ваша оценка  - 2.0');
+#     elif letter_mark == 'C-':
+#         print('Ваша оценка  - 1.7');
+#     elif letter_mark == 'D+':
+#         print('Ваша оценка  - 1.3');
+#     elif letter_mark == 'D':
+#         print('Ваша оценка  - 1.0');
+#     elif letter_mark == 'F':
+#         print('Ваша оценка  - 0');
+#     else:
+#         print('Введите оценку заново');
 
-task10();
+# task10();
+
+#Задание 11
+def task11():
+    rate = float(input('Введите ваш рейтинг\n'));
+    if rate == 0.0:
+        print('Низкий уровень');
+        print('Прибавки к зарплате нет и не будет');
+    elif rate == 0.4:
+        print('Удовлетворительный уровень');
+        print(f"Прибавка к зарплате в размере {2400 * 0.4} долааров");
+    elif rate >= 0.6:
+        print('Высокий уровень');
+        print(f"Прибавка к зарплате в размере {2400 * rate} долааров");
+    else:
+        print('Вы ввели рейтинг в некорректном формате. Повторите ввод')
+
+task11();
